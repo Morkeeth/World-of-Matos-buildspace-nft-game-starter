@@ -8,7 +8,7 @@ import { ethers } from 'ethers';
 import Arena from './Components/Arena';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'Morkeeth';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -25,8 +25,8 @@ const App = () => {
       return (
         <div className="connect-wallet-container">
           <img
-            src="https://64.media.tumblr.com/tumblr_mbia5vdmRd1r1mkubo1_500.gifv"
-            alt="Monty Python Gif"
+            src="https://media0.giphy.com/media/65D9lmbH8Nn8KKQRqR/giphy.gif?cid=ecf05e47ouhzvjkwj96zbqa0m8bbxzlpyv8e4xr87wcx2nil&rid=giphy.gif&ct=g"
+            alt="Wow gif"
           />
           <button
             className="cta-button connect-wallet-button"
@@ -155,8 +155,8 @@ const App = () => {
       <div className="App">
         <div className="container">
           <div className="header-container">
-            <p className="header gradient-text">⚔️ Metaverse Slayer ⚔️</p>
-            <p className="sub-text">Team up to protect the Metaverse!</p>
+            <p className="header gradient-text">⚔️ World of Carlos matos ⚔️</p>
+            <p className="sub-text">Join us to protect the realm!</p>
             {renderContent()}
           </div>
           <div className="footer-container">
