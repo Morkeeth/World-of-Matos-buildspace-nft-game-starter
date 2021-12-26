@@ -98,6 +98,7 @@ const SelectCharacter = ({ setCharacterNFT }) => {
       gameContract.off('CharacterNFTMinted', onCharacterMint);
     }
   };
+  // eslint-disable-next-line
 }, [gameContract]);
 
   const renderCharacters = () =>
@@ -117,13 +118,11 @@ const SelectCharacter = ({ setCharacterNFT }) => {
   return (
     <div className="select-character-container">
       <h2>Mint Your Hero. Choose wisely.</h2>
-      
       {/* Only show this when there are characters in state */}
       {characters.length > 0 && (
         <div className="character-grid">{renderCharacters()}</div>
       )}
     </div>
-    
   );
 };
 

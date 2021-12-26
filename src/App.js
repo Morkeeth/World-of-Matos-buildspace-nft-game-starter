@@ -6,8 +6,6 @@ import { CONTRACT_ADDRESS, transformCharacterData } from './constants';
 import myEpicGame from './utils/MyEpicGame.json';
 import { ethers } from 'ethers';
 import Arena from './Components/Arena';
-import LoadingIndicator from './Components/LoadingIndicator';
-
 
 // Constants
 const TWITTER_HANDLE = '_buildspace';
@@ -49,7 +47,7 @@ const App = () => {
   }
 
     // Actions
-
+// eslint-disable-next-line
     const checkNetwork = async () => {
       try {
         if (window.ethereum.networkVersion !== '4') {
@@ -59,6 +57,7 @@ const App = () => {
         console.log(error)
       }
     }
+    // eslint-disable-next-line
     const checkIfWalletIsConnected = async () => {
       try {
         const { ethereum } = window;

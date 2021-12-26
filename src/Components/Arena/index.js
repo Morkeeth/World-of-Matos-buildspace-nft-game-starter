@@ -17,7 +17,7 @@ const Arena = ({ characterNFT }, {setCharacterNFT}) => {
    * State that will hold our boss metadata
    */
   const [boss, setBoss] = useState(null);
-
+// eslint-disable-next-line
   const [attackState, setAttackState] = useState('');
 
   const runAttackAction = async () => {
@@ -75,7 +75,7 @@ const Arena = ({ characterNFT }, {setCharacterNFT}) => {
       if (gameContract) {
         gameContract.off('AttackComplete', onAttackComplete);
       }
-    }
+    }// eslint-disable-next-line
   }, [gameContract]);
 
   // UseEffects
